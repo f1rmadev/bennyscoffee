@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benny's coffe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="box-video">
+      <video src="./videos/coffe.mp4" loop muted autoplay></video>
+      <div class="mask"></div>
+    </div>
+
+    <header class="header">
+      <section>
+        <a>
+          <img src="./img/logo.png" alt="brand-coffee" />
+        </a>
+
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#" onclick="showModal()">Address</a>
+          <a href="#">Work with us</a>
+        </nav>
+      </section>
+    </header>
+
+    <section class="main-box">
+      <div>
+        <h3>Code with The Best <span>coffee</span> of the Country!</h3>
+        <p>
+            A professional has to stay focused on their tasks, so grab a coffee and just do it. <br>
+            Coffee will help you a lot in your future projects in your
+            programming carrer!
+        </p>
+        <a href="link-button">Send us your request!</a>
+      </div>
+    </section>
+
+    <section class="box-about">
+      <h2 class="title"><span>About </span>us</h2>
+      <div class="sub-container">
+        <div class="sub-image">
+          <img src="./img/about-img.jpeg" alt="about-us" />
+        </div>
+
+        <div class="sub-text">
+          <h3>What makes our <span>coffee</span> special?</h3>
+          <p>
+            The coffee from Benny's Coffee is special because it combines the
+            rich, intense flavor and captivating aroma with the warm, inviting
+            atmosphere of the space. Each sip feels like a harmonious escape,
+            energizing the mind and inspiring motivation, leaving customers
+            ready to tackle the day.
+          </p>
+          <a class="link-button">View More</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal">
+      <h3 class="title">Our<span> address</span></h3>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.2062438489543!2d-46.649253123724414!3d-23.596935178775368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2389393183%3A0x7a40b77ac5705d94!2sCoffee%20Land%20Cafeteria%20e%20Restaurante!5e0!3m2!1spt-BR!2sbr!4v1733751967179!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div class="mask-modal" onclick="showOffModal()">
+
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
